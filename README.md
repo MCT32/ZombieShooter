@@ -1,14 +1,16 @@
 # ZombieShooter
 Top-down 2D survival shooter
-**Current Stage:** Brainstorming
+<br>
+**Current Stage:** Prototyping
 
-## Ideas
+## TODO
 ### Definately going to be in the game
-- Hoards of zombies that move slowly towards the player
-- Basic hitscan weapons:
-  - Pistol
-  - Shotgun
-  - Sniper rifle
+- [ ] Basic sprites
+- [ ] Hoards of zombies that move slowly towards the player
+- [ ] Basic hitscan weapons:
+  - [ ] Pistol
+  - [ ] Shotgun
+  - [ ] Sniper rifle
 
 ### Might be in the game
 - Multiplayer
