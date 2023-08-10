@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://d22rk84d0syhy"]
 
-[ext_resource type="Texture2D" uid="uid://bkgi3iwsr5ulj" path="res://icon.svg" id="1_1kxrv"]
 [ext_resource type="Script" path="res://prefabs/player.gd" id="1_wxc6s"]
+[ext_resource type="Texture2D" uid="uid://dwrfxi6nr3okp" path="res://assets/zombie.png" id="2_hrjnq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mht1g"]
 size = Vector2(64, 64)
@@ -10,8 +10,9 @@ size = Vector2(64, 64)
 script = ExtResource("1_wxc6s")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("1_1kxrv")
+texture_filter = 1
+scale = Vector2(4, 4)
+texture = ExtResource("2_hrjnq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_mht1g")
