@@ -5,7 +5,7 @@ Top-down 2D survival shooter
 
 ## TODO
 ### Definately going to be in the game
-- [ ] Basic sprites
+- [x] Basic sprites
 - [ ] Hoards of zombies that move slowly towards the player
 - [ ] Basic hitscan weapons:
   - [ ] Pistol

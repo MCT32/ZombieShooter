@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bod158u5ikrgf"]
+[gd_scene load_steps=4 format=3 uid="uid://bod158u5ikrgf"]
 
 [ext_resource type="PackedScene" uid="uid://d22rk84d0syhy" path="res://prefabs/player.tscn" id="1_1dkmy"]
 [ext_resource type="TileSet" uid="uid://120t81rhlx3w" path="res://ground.tres" id="1_qyhlb"]
+[ext_resource type="Texture2D" uid="uid://dwrfxi6nr3okp" path="res://assets/zombie.png" id="3_elb3c"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -11,3 +12,9 @@ format = 2
 layer_0/tile_data = PackedInt32Array(65537, 1, 0, 65536, 1, 0, 131071, 1, 0, 131070, 1, 0, 65534, 1, 0, -2, 1, 0, -65538, 1, 0, -65537, 1, 0, -131072, 1, 0, -131071, 1, 0, -65535, 1, 0, 1, 1, 0, 0, 1, 0, 65535, 1, 0, -1, 1, 0, -65536, 1, 0)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_1dkmy")]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(100, 0)
+scale = Vector2(4, 4)
+texture = ExtResource("3_elb3c")
